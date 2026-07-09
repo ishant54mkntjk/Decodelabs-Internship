@@ -1,0 +1,1 @@
+const express=require('express');const router=express.Router();let users=[{id:1,name:'Ishant',email:'ishant@gmail.com'}];router.get('/',(req,res)=>res.json(users));module.exports=router;
